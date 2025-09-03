@@ -1,8 +1,4 @@
 #################### production parameters ############################
-# google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "" # example: G-XXXXXXXXXX
-google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
-
 # cookies
 # cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
