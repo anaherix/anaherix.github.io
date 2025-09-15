@@ -1,12 +1,12 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Guiding You Through Modern Software Challenges"
+  content: "Anaherix is an independent IT consultancy delivering expertise in backend engineering, observability, and open-source - Let’s build reliable software together."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Contact Us"
+    label: "Work with Anaherix"
     link: "/contact"
 
 # Features

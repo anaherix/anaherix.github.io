@@ -62,8 +62,8 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
+keywords = ["IT Consultancy", "consultancy", "freelance", "software development", "backend", "backend engineering", "Go", "Golang", "observability", "data visualization", "open source", "open-source"]
+description = "Anaherix AB is an independent IT consultancy delivering expertise in backend engineering, observability, and open-source."
 author = "zeon.studio"
 twitter = "zeon_studio"
 image = "images/og-image.png"
