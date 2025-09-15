@@ -6,13 +6,13 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Contact Us"
+    link: "/contact"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
+  - title: "Software development"
+    image: "/images/abstract_code.png"
     content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
     bulletpoints:
       - "10+ Pre-build pages"
@@ -26,28 +26,27 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Observability & data visualization"
+    image: "/images/abstract_dashboard.png"
+    content: "Anaherix has deep expertise in observability (o11y) and data visualization as a former open-source maintainer of Grafana. We can provide counseling and support to help you and your company understand the health and state of your applications and infrastructure by unifying your observability and telemetry under a single pane of glass. We can help with the following:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Counseling & support: Observability and data visualization with Grafana, Prometheus and OpenTelemetry."
+      - "Development: Grafana dashboards and plugins."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "We love Open-Source"
+    image: "/images/abstract_oss.png"
+    content: "Anaherix are strong believers in open source and believes that software are built better together, creating a more open and secure world to live in. We have long experience with open source collaborative development of a widely used and popular software and ecosystem."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Community work"
+      - "Code review and issue triage"
+      - "Build and release management (on-prem/cloud)"
+      - "Vulnerability assessments"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Follow us on GitHub"
+      link: "https://github.com/anaherix"
 ---
