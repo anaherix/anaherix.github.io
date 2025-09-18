@@ -24,5 +24,13 @@
       @apply bg-transparent py-2;
     }
   }
+
+  .banner-img {
+    background-image: url('/images/banner.png');
+  }
+
+  .dark .banner-img {
+    background-image: url('/images/banner_dark.png');
+  }
 }
 
