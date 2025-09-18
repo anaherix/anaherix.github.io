@@ -51,7 +51,7 @@
 {{ end }}
 
 {{ $mainCSS := resources.Get "css/main.css" }}
-{{ $tailwindOpts := dict "inlineImports" true }}
+{{ $tailwindOpts := dict }}
 {{ $tailwindCSS := $mainCSS | css.TailwindCSS $tailwindOpts }}
 
 {{ $styles = $styles | append $tailwindCSS }}
