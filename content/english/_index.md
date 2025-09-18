@@ -3,24 +3,28 @@
 banner:
   title: "Guiding You Through Modern Software Challenges"
   content: "Anaherix is an independent IT consultancy delivering expertise in backend engineering, observability, and open-source - Let’s build reliable software together."
-  image: "/images/banner.png"
-  button:
-    enable: true
+  fullscreen:
+    backgroundImage: "images/banner.png"
+    backgroundImageDark: "images/banner_dark.png"
+  primaryButton:
     label: "Work with Anaherix"
     link: "/contact"
+  secondaryButton:
+    label: "Learn more"
+    link: "#services"
 
 # Features
 features:
   - title: "Software development"
     image: "/images/abstract_code.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Anaherix helps teams design and scale backend systems with Go at the core. Drawing on experience from startups to global platforms, we guide organizations through growth, modernization, and continuous improvement."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Backend development in Go"
+      - "System architecture & design"
+      - "Database-driven applications (SQL & NoSQL)"
+      - "API design & implementation"
+      - "Performance tuning & optimization"
+    target: "services"
     button:
       enable: false
       label: "Get Started Now"

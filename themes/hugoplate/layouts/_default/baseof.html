@@ -16,7 +16,7 @@
 
   </head>
 
-  <body>
+  <body class="{{- if and (.Params.banner) (.Params.banner.fullscreen) -}}banner-fullscreen{{- end -}}">
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
       {{ partialCached "preloader.html" . }}
@@ -46,6 +46,7 @@
     <!-- footer -->
     {{ partial "essentials/footer.html" . }}
 
+    {{ partialCached "components/sticky_navbar.html" . }}
 
     <!-- script (always cache it) -->
     {{ partialCached "essentials/script.html" . }}

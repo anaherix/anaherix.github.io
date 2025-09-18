@@ -1,1 +1,27 @@
 /* Add your own custom styles here */
+
+@layer navigation {
+  .header {
+    @apply bg-body dark:bg-darkmode-body py-2;
+
+    &.scroll {
+      @apply lg:sticky bg-body dark:bg-darkmode-body shadow-lg;
+    }
+  }
+
+  .banner-fullscreen {
+    .header:not(:has(#nav-toggle:checked)) {
+      @apply absolute bg-transparent py-2 top-0 w-full;
+
+      &.scroll {
+        @apply lg:sticky bg-body dark:bg-darkmode-body shadow-lg;
+      }
+    }
+  }
+
+  .banner-fullscreen {
+    .header {
+      @apply bg-transparent py-2;
+    }
+  }
+}
