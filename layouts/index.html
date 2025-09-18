@@ -4,7 +4,7 @@
 {{ with .fullscreen }}
   {{ $bg := resources.GetMatch .backgroundImage }}
   {{ $darkBg := resources.GetMatch .backgroundImageDark }}
-  <div class="banner-fullscreen lg:h-screen bg-no-repeat bg-cover bg-center banner-img relative ">
+  <div class="banner-fullscreen lg:h-screen bg-no-repeat bg-cover bg-center banner-img bg-[url('{{ $bg.RelPermalink }}')] dark:bg-[url('{{ $darkBg.RelPermalink }}')] relative ">
 {{ end }}
 <section class="section pt-20 pb-0 lg:pt-36 xl:pt-36">
   <div class="container">
