@@ -1,0 +1,11 @@
+<script>
+  window.addEventListener('scroll', function() {
+    header = document.getElementsByTagName('header')[0];
+
+    if (window.pageYOffset > header.offsetHeight) {
+      header.classList.add("scroll");
+    } else {
+      header.classList.remove("scroll");
+    }
+  });
+</script>
