@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "yarn project-setup; yarn build"
+command = "yarn project-setup; yarn netlify-preview"
 
 [build.environment]
 HUGO_VERSION = "0.149.0"
