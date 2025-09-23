@@ -18,6 +18,8 @@ defaultContentLanguage = 'en'
 # defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
 defaultContentLanguageInSubdir = false
 
+disableKinds = ["taxonomy", "term"]
+
 ########################### Services #############################
 [services]
 [services.googleAnalytics]
