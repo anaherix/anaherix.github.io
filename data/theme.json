@@ -19,7 +19,7 @@
       "theme_color": {
         "primary": "#fff",
         "body": "#000d1c",
-        "border": "#286382",
+        "border": "#031d3b",
         "light": "#001024",
         "dark": "#fff",
         "button-primary": "#00a6f4"
@@ -27,7 +27,7 @@
       "text_color": {
         "text": "#fff",
         "text_dark": "#fff",
-        "text_light": "#B4AFB6"
+        "text_light": "#6280a3"
       }
     }
   },

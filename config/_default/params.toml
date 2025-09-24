@@ -12,6 +12,8 @@ logo_height = "32px"
 logo_webp = true
 # logo text will only show when logo is missing.
 logo_text = "Anaherix AB"
+footer_logo = "images/footer-logo.png"
+footer_logo_darkmode = "images/footer-logo-darkmode.png"
 # navbar fixed to top
 navbar_fixed = false
 # theme-mode

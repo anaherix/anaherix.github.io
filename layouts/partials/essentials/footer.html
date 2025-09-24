@@ -1,0 +1,74 @@
+<footer class="bg-light dark:bg-darkmode-light">
+  <div class="container">
+    <div class="row items-center py-2">
+      <div class="lg:col-5 mb-0 text-center lg:mb-0 lg:text-left">
+        <div class="row items-center">
+          <div class="lg:col-4">
+            <!-- navbar brand/logo -->
+            <a
+              class="navbar-brand inline-block"
+              href="{{ site.Home.RelPermalink }}">
+              {{ partial "logo" (dict "Src" site.Params.footer_logo "DarkSrc" site.Params.footer_logo_darkmode ) }}
+            </a>
+          </div>
+          <div class="lg:col-8 lg:mt-6 mb-0 text-center lg:text-left lg:mb-0">
+            <ul>
+              <li class="m-3 inline-block">
+                <p class="text-text-light dark:text-darkmode-text-light text-sm">
+                <strong>Anaherix AB</strong><br/>
+                Org.nr 559540-9854<br/>
+                Masugnsvägen 86<br/>
+                SE-168 77 Bromma
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-4 mb-8 text-center lg:mb-0">
+        <ul>
+          {{ range site.Menus.footer }}
+            <li class="m-3 inline-block">
+              <a
+                {{ if findRE `^http` .URL }}
+                  target="_blank" rel="noopener"
+                {{ end }}
+                href="{{ if findRE `^#` .URL }}
+                  {{ if not $.IsHome }}
+                    {{ site.Home.RelPermalink }}
+                  {{ end }}{{ .URL }}
+                {{ else }}
+                  {{ .URL | relLangURL }}
+                {{ end }}"
+                >{{ .Name }}</a
+              >
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
+        <ul class="social-icons">
+          {{ range site.Data.social.main }}
+            <li>
+              <a
+                target="_blank"
+                aria-label="{{ .name }}"
+                rel="nofollow noopener"
+                href="{{ .link | safeURL }}">
+                <i class="{{ .icon }}"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <div class="border-border dark:border-darkmode-border border-t py-7">
+    <div
+      class="text-text-light dark:text-darkmode-text-light container text-center">
+      <p class="text-sm">
+        Copyright {{ dateFormat "2006" now }} &copy; Anaherix AB
+      </p>
+    </div>
+  </div>
+  </div>
+</footer>
