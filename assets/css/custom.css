@@ -55,3 +55,8 @@
   }
 }
 
+/* cookie consent */
+.cookie-box {
+  @apply !bg-body dark:!bg-darkmode-body dark:!shadow-white/10;
+}
+
