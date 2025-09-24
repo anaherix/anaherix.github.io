@@ -63,7 +63,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["IT Consultant", "consultant", "freelancer", "Indipendent freelancer", "software development", "backend", "backend engineering", "backend development", "Go", "Golang", "Grafana", "observability", "data visualization", "open source", "open-source"]
-description = "I deliver the expertise needed to turn modern software challenges into scalable, maintainable solutions."
+description = "Marcus Efraimsson, independent consultant and freelancer at Anaherix AB. Backend engineering, observability, and open-source expertise for modern software challenges."
 author = "Marcus Efraimsson"
 twitter = "mefraimsson"
 image = "images/og-image.png"
