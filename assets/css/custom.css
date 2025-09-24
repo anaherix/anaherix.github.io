@@ -1,27 +1,48 @@
 /* Add your own custom styles here */
 
+@keyframes scroll-animation {
+  0% {
+    transform: translateY(-100%);
+    background-color: transparent;
+  }
+  100% {
+    transform: translateY(0);
+    background-color: bg-body;
+  }
+}
+
 @layer navigation {
-  .header {
-    @apply bg-body dark:bg-darkmode-body py-2;
-
-    &.scroll {
-      @apply lg:sticky bg-body dark:bg-darkmode-body shadow-lg;
-    }
-  }
-
-  .banner-fullscreen {
-    .header:not(:has(#nav-toggle:checked)) {
-      @apply absolute bg-transparent py-2 top-0 w-full;
-
-      &.scroll {
-        @apply lg:sticky bg-body dark:bg-darkmode-body shadow-lg;
-      }
-    }
-  }
-
   .banner-fullscreen {
     .header {
-      @apply bg-transparent py-2;
+      @apply bg-transparent py-4;
+    }
+
+    .header:not(:has(#nav-toggle:checked)) {
+      @apply absolute bg-transparent py-4 top-0 w-full;
+    }
+  }
+
+  .header {
+    @apply bg-body dark:bg-darkmode-body py-4;
+  }
+
+  .header:not(:has(#nav-toggle:checked)) {
+    &.scroll {
+      @apply lg:sticky bg-body dark:bg-darkmode-body py-1 top-0 shadow-lg dark:shadow-white/10;
+      animation: scroll-animation 0.5s ease-in-out;
+
+      img, .theme-switcher {
+        scale: 80%;
+      }
+
+      .theme-switcher {
+        margin-right: calc(var(--spacing) * 3)
+      }
+
+      .btn-sm {
+        font-size: calc(var(--text-sm)*0.75);
+        padding: 0.2rem 0.5rem;
+      }
     }
   }
 
