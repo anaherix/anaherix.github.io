@@ -62,9 +62,9 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["IT Consultancy", "consultancy", "freelance", "software development", "backend", "backend engineering", "backend development", "Go", "Golang", "observability", "data visualization", "open source", "open-source"]
-description = "Anaherix AB is an independent IT consultancy delivering expertise in backend engineering, observability, and open-source."
-author = "Marcus Efraimsson / Anaherix AB"
+keywords = ["IT Consultant", "consultant", "freelancer", "Indipendent freelancer", "software development", "backend", "backend engineering", "backend development", "Go", "Golang", "Grafana", "observability", "data visualization", "open source", "open-source"]
+description = "I deliver the expertise needed to turn modern software challenges into scalable, maintainable solutions."
+author = "Marcus Efraimsson"
 twitter = "mefraimsson"
 image = "images/og-image.png"
 
