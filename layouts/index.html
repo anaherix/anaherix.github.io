@@ -13,7 +13,7 @@
         <h1 class="mb-4 text-h3 lg:text-h1">
           {{ .title | markdownify }}
         </h1>
-        <p class="mb-8">
+        <p class="mb-8 lg:text-xl">
           {{ .content | markdownify }}
         </p>
         <div class="flex flex-wrap justify-center">
@@ -94,6 +94,28 @@
     </section>
   {{ end }}
   <!-- /Features -->
+
+  <section class="section-sm bg-gradient">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="md:col-10 lg:col-7">
+        {{ partial "image" (dict "Src" "/images/marcus.jpg" "Context" .Page "Alt" "Image of Marcus Efraimsson" "Class" "mx-auto mb-6 rounded-full" "Size" "200x200") }}
+        <h2 class="mb-6 text-center">Marcus Efraimsson</h2>
+        <div class="content">
+          <p>
+            I'm Marcus, Senior Software Engineer, independent consultant, and freelancer. With more than 16 years of experience across startups, scale-ups, and global organizations, I've built a broad skill set as a well-rounded generalist with a strong focus on backend systems.
+          </p>
+          <p>
+            As a former open-source maintainer of Grafana, I gained deep expertise in observability and data visualization, developer tooling, and community-driven development. I believe software is better built together, and I bring this collaborative, open-source mindset into every project.
+          </p>
+          <p>
+            I thrive on solving complex, real-world problems and I'm driven by the opportunity to deliver meaningful value through continuous improvement and innovation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 {{ end }}
